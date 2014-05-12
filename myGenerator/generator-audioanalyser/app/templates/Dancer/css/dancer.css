@@ -1,0 +1,39 @@
+
+
+/*#fft { 
+    display: block;
+    margin: 0 auto;
+}
+
+#content img{
+    float: left;
+}
+
+#content .buttons{
+    width: 200px;
+    margin-left: 130px;
+    float: left;
+}
+
+#content img.unzoomed{
+    transform:scale(1,1);
+    -ms-transform:scale(1,1);
+    -webkit-transform:scale(1,1);
+}
+#content img.rotated{
+    transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg); 
+    -webkit-transform:rotate(-10deg); 
+
+}
+
+#contentWrap #complete_content #content #inhalt .scrollable .items img.strobo{
+    opacity: 0;     
+}
+
+#content img.rotatedUZ{
+    transform:rotate(10deg);
+    -ms-transform:rotate(10deg);
+    -webkit-transform:rotate(10deg); 
+}
+*/

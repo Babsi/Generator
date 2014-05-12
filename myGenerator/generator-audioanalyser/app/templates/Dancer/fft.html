@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Duru+Sans" rel="stylesheet" type="text/css">
+		<!--<link href="css/dancer.css" rel="stylesheet" type="text/css">-->
+	</head>
+	<body>
+		<div><audio id="audio-element"
+           src="assets/test.mp3"
+           controls="true"
+           style="width: 512px;">
+    	</audio></div>
+		
+		<canvas id="amplitude" width="20" height="800"></canvas>
+		<canvas id="fft" height="800" width="1800" style="margin-left: -4px;"></canvas>
+		<!-- Dancer.js -->
+		<script src="src/dancer.js"></script>
+		<script src="src/support.js"></script>
+		<script src="src/kick.js"></script>
+		<script src="src/adapterWebAudio.js"></script>
+		<script src="src/adapterMoz.js"></script>
+		<script src="src/adapterFlash.js"></script>
+		<script src="lib/fft.js"></script>
+		<script src="lib/flash_detect.js"></script>
+		<script src="fft.js"></script>
+
+		<!-- Demo stuff -->
+		<script src="assets/player.js"></script>
+	</body>
+</html>
